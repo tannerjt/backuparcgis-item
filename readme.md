@@ -93,7 +93,7 @@ const BackupArcGISService = require('backuparcgis-item')
 // new BackupArcGIS(serviceURL, archiveDirectory, username, ?token)
 const Backup = new BackupArcGISService('682fac79087c4e159962444de9b823c5', outDir, username, token)
 
-Backup.bytes(250)
+Backup.bytes = 250
 ```
 
 Changing this value will ensure new versions are only created if the absolute value of the difference between the datasets is > 250 bytes.
