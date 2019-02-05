@@ -1,0 +1,28 @@
+{
+  "name": "backuparcgis-item",
+  "homepage": "https://github.com/tannerjt/backuparcgis-item#readme",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">8.9.0"
+  },
+  "description": "Async module to backup items from ArcGIS Online hosted feature services to FileGDB.",
+  "main": "index.js",
+  "bin": {
+    "backuparcgis-item": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:tannerjt/backuparcgis-item"
+  },
+  "author": "Joshua Tanner (@Tanner_GEO)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
